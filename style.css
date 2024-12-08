@@ -51,7 +51,7 @@ body {
     cursor: pointer;
 }
 
-/* Pantalla de Chat */
+/* Pantalla de Carga */
 .pantalla-chat {
     display: none;
     flex-direction: column;
