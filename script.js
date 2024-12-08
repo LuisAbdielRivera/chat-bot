@@ -1,3 +1,19 @@
+// Seleccionamos las pantallas y el botón
+const pantallaInicio = document.getElementById("pantallaInicio");
+const pantallaChat = document.getElementById("pantallaChat");
+const pantallaPrincipal = document.getElementById("pantalla-principal");
+const btnInicio = document.getElementById("btnInicio");
+
+btnInicio.addEventListener("click", () => {
+    pantallaInicio.style.display = "none";
+    pantallaChat.style.display = "flex";
+
+    setTimeout(() => {
+        pantallaChat.style.display = "none";
+        pantallaPrincipal.classList.remove("oculto");
+    }, 3000);
+});
+
 document.getElementById('send-btn').addEventListener('click', () => {
     const userInput = document.getElementById('user-input').value;
     if (userInput.trim()) {

@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Pantalla Inicio -->
-    <div class="pantalla">
-        <img class="img-logo" src="./img/logo.jpeg" alt="">
-        <h1 class="mensaje-principal">¿En qué puedo ayudarte?</h1>
+    <!-- Pantalla de Inicio -->
+    <div class="pantalla-inicio" id="pantallaInicio">
+        <img class="logo-chat" src="./img/logo.jpeg" alt="Logo del chat">
+        <h1 class="texto-bienvenida">¿En que puedo ayudarte?</h1>
+        <div class="boton-contenedor">
+            <button class="boton-accion" id="btnInicio">></button>
+        </div>
     </div>
 
-    <!-- Pantalla de Carga -->
+    <!-- Pantalla de Chat -->
+    <div class="pantalla-chat" id="pantallaChat">
+        <div class="header-chat">
+            <img class="img-avatar" src="./img/logo.jpeg" alt="Avatar del chat">
+            <span class="titulo-chat">Bienvenido al chat sobre estadías</span>
+        </div>
+        <h1 class="mensaje-chat">¿En que puedo ayudarte?</h1>
+    </div>
 
     <!-- Pantalla principal -->
     <div id="pantalla-principal" class="oculto">
